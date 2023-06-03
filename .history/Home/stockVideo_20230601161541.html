@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="/style/stockVideo.css" />
+    </head>
+    <body>
+        <!-- begin nav -->
+        <nav class="nav">
+            <div class="nav_container">
+                <div class="nav_gruop">
+                    <div class="nav_top">
+                        <!-- logo -->
+                        <div class="nav_logo">
+                            <a href="/Home/index.html"
+                                >envato<span>elements</span></a
+                            >
+                        </div>
+
+                        <!-- nav-search -->
+                        <div class="nav_top-search">
+                            <div class="search_drop">
+                                <p>All items</p>
+                                <i
+                                    class="fa-sharp fa-solid fa-chevron-down"
+                                ></i>
+                            </div>
+                            <label for="nav_search-input">
+                                <input
+                                    type="text"
+                                    placeholder="search..."
+                                    id="nav_search-input"
+                                    class="nav_search-input"
+                                />
+                                <button class="search_glass" id="search_glass">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </button>
+                            </label>
+                        </div>
+
+                        <p class="nav_top-license"><a href="#">License</a></p>
+                        <p class="nav_top-pricing"><a href="#">Pricing</a></p>
+                        <!-- Get unlimited downloads -->
+                        <div class="nav_plus">
+                            <a href="#">Get unlimited downloads</a>
+                        </div>
+                        <!-- sign in -->
+                        <div class="nav_signin">
+                            <a href="#">
+                                <i class="fa-solid fa-user"></i>
+                                <p>Sign in</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="nav_bottom">
+                        <ul class="nav_bottom-menu">
+                            <li class="item">
+                                <a href="#">Stock Video</a>
+                                <ul class="item-dropMenu item1">
+                                    <li><a href="">Stock Footage</a></li>
+                                    <li><a href="">Motion Graphics</a></li>
+                                    <li>
+                                        <a href="" class="item-drop-arrow"
+                                            >Motion Graphics<i
+                                                class="fa-solid fa-arrow-right"
+                                            ></i
+                                        ></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="item">
+                                <a href="#">Video Templates</a>
+                                <ul class="item-dropMenu item2">
+                                    <li><a href="">After Effects</a></li>
+                                    <li><a href="">Premiere Pro</a></li>
+                                    <li><a href="">Apple Motion</a></li>
+                                    <li><a href="">Final Cut Pro</a></li>
+                                    <li><a href="">DaVinci Resolve</a></li>
+                                    <li>
+                                        <a href="">All Video Templates</a>
+                                    </li>
+                                    <li style="border-top: 1px solid #c9c5c5">
+                                        <a href="" class="item-drop-arrow"
+                                            >Create with Video Templates</a
+                                        >
+                                        <p
+                                            style="
+                                                font-size: 12px;
+                                                color: #7c7c7c;
+                                                padding: 5px;
+                                                line-height: 18px;
+                                            "
+                                        >
+                                            Find useful resources and learn more
+                                            about creating with Video Templates
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <a href="" class="item-drop-arrow"
+                                            >All Web Templates<i
+                                                class="fa-solid fa-arrow-right"
+                                            ></i
+                                        ></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="item">
+                                <a href="#">Music</a>
+                                <ul class="item-dropMenu item3">
+                                    <li><a href="">Royalty Free Music</a></li>
+                                    <li><a href="">Logos & Idents</a></li>
+                                    <li>
+                                        <a href="" class="item-drop-arrow"
+                                            >Royalty Free Music<i
+                                                class="fa-solid fa-arrow-right"
+                                            ></i
+                                        ></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="item">
+                                <a href="#">Sound Effects</a>
+                                <div style="display: flex">
+                                    <ul class="item-dropMenu item4">
+                                        <li><a href="">Game Sounds</a></li>
+                                        <li>
+                                            <a href=""
+                                                >Transitions & Movement</a
+                                            >
+                                        </li>
+                                        <li><a href="">Domestic Sounds</a></li>
+                                        <li><a href="">Human Sounds</a></li>
+                                        <li><a href="">Urban Sounds</a></li>
+                                        <li><a href="">Nature Sounds</a></li>
+                                        <li>
+                                            <a href="" class="item-drop-arrow"
+                                                >All Sound Effects<i
+                                                    class="fa-solid fa-arrow-right"
+                                                ></i
+                                            ></a>
+                                        </li>
+                                        <li>
+                                            <a href="">Futuristic Sounds</a>
+                                        </li>
+                                        <li><a href="">Interface Sounds</a></li>
+                                        <li><a href="">Cartoon Sounds</a></li>
+                                        <li>
+                                            <a href="">Industrial Sounds</a>
+                                        </li>
+                                        <li><a href="">Sound Packs</a></li>
+                                        <li><a href="">Miscellaneous</a></li>
+                                        <li><a href="">Sound</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="item">
+                                <a href="#">Graphic Templates</a>
+                                <ul class="item-dropMenu item5">
+                                    <li><a href="">Adobe Photoshop</a></li>
+                                    <li><a href="">Adobe Illustrator</a></li>
+                                    <li><a href="">Adobe InDesign</a></li>
+                                    <li><a href="">Adobe XD</a></li>
+                                    <li><a href="">Figma</a></li>
+                                    <li><a href="">Sketch</a></li>
+                                    <li style="border-top: 1px solid #c9c5c5">
+                                        <a href="" class="item-drop-arrow"
+                                            >Elements Sketch Plugin</a
+                                        >
+                                        <p
+                                            style="
+                                                font-size: 12px;
+                                                color: #7c7c7c;
+                                                padding: 5px;
+                                                line-height: 18px;
+                                            "
+                                        >
+                                            Create stunning user interfaces
+                                            faster.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <a href="" class="item-drop-arrow"
+                                            >All Graphic Templates<i
+                                                class="fa-solid fa-arrow-right"
+                                            ></i
+                                        ></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="item">
+                                <a href="#">Graphics</a>
+                                <ul class="item-dropMenu item6">
+                                    <li><a href="">Backgrounds</a></li>
+                                    <li><a href="">Textures</a></li>
+                                    <li><a href="">Social</a></li>
+                                    <li><a href="">Patterns</a></li>
+                                    <li><a href="">Icons</a></li>
+                                    <li><a href="">Objects</a></li>
+                                    <li>
+                                        <a href="" class="item-drop-arrow"
+                                            >All Graphics<i
+                                                class="fa-solid fa-arrow-right"
+                                            ></i
+                                        ></a>
+                                    </li>
+                                    <li>
+                                        <a href="">Illustrations</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="item">
+                                <a href="#">Presentation Templates</a>
+                                <ul class="item-dropMenu item7">
+                                    <li><a href="">Keynote</a></li>
+                                    <li><a href="">PowerPoint</a></li>
+                                    <li><a href="">Google Slides</a></li>
+                                    <li>
+                                        <a href="" class="item-drop-arrow"
+                                            >All Presentation Templates<i
+                                                class="fa-solid fa-arrow-right"
+                                            ></i
+                                        ></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="item">
+                                <a href="#">Photos</a>
+                                <ul class="item-dropMenu item8">
+                                    <li>
+                                        <a href="">Envato Elements Photos</a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="item-drop-arrow"
+                                            >All Photo collections<i
+                                                class="fa-solid fa-arrow-right"
+                                            ></i
+                                        ></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="item">
+                                <a href="#">Fonts</a>
+                                <ul class="item-dropMenu item9">
+                                    <li><a href="">Serif</a></li>
+                                    <li><a href="">Sans-Serif</a></li>
+                                    <li>
+                                        <a href="">Script and Handwritten</a>
+                                    </li>
+                                    <li><a href="">Decorative</a></li>
+                                    <li>
+                                        <a href="" class="item-drop-arrow"
+                                            >All Fonts<i
+                                                class="fa-solid fa-arrow-right"
+                                            ></i
+                                        ></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="item">
+                                <a href="#">Add-ons</a>
+                                <ul class="item-dropMenu item10">
+                                    <li><a href="">Adobe Photoshop</a></li>
+                                    <li><a href="">Adobe Lightroom</a></li>
+                                    <li><a href="">Adobe Illustrator</a></li>
+                                    <li><a href="">Procreate</a></li>
+                                    <li>
+                                        <a href="" class="item-drop-arrow"
+                                            >All Add-ons<i
+                                                class="fa-solid fa-arrow-right"
+                                            ></i
+                                        ></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="item">
+                                <a href="#">Web Templates</a>
+                                <ul class="item-dropMenu item11">
+                                    <li><a href="">Admin Templates</a></li>
+                                    <li><a href="">Email Templates</a></li>
+                                    <li><a href="">Site Templates</a></li>
+                                    <li>
+                                        <a href="">Landing Page Templates</a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="item-drop-arrow"
+                                            >All Web Templates<i
+                                                class="fa-solid fa-arrow-right"
+                                            ></i
+                                        ></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="item">
+                                <a href="#">CMS Templates</a>
+                                <ul class="item-dropMenu item6">
+                                    <li><a href="">Drupal</a></li>
+                                    <li><a href="">Joomla</a></li>
+                                    <li><a href="">Magento</a></li>
+                                    <li><a href="">Muse</a></li>
+                                    <li><a href="">OpenCart</a></li>
+                                    <li><a href="">PrestaShop</a></li>
+                                    <li>
+                                        <a href="" class="item-drop-arrow"
+                                            >All CMS Templates<i
+                                                class="fa-solid fa-arrow-right"
+                                            ></i
+                                        ></a>
+                                    </li>
+                                    <li><a href="">Shopify</a></li>
+                                    <li><a href="">Unbounce</a></li>
+                                    <li><a href="">Ghost</a></li>
+                                    <li><a href="">Tumblr</a></li>
+                                </ul>
+                            </li>
+                            <li class="item"><a href="#">More</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- nav end -->
+
+        <!-- begin main  -->
+        <main>
+            <!-- giới thiệu: introduce -->
+            <section class="introduce-container">
+                <div class="introduce">
+                    <p><span>All Items</span> / <span>Videp Template</span></p>
+                    <h2>Editable Video Templates</h2>
+                    <p>
+                        Find the best designer-made
+                        <strong>video templates</strong> for your projects. With
+                        tens of thousands of items to choose from, our library
+                        has everything from openers, titles and logo stings to
+                        video displays, product promo and much more.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Phần content -->
+            <section class="content">
+                <!-- Phần sidebar -->
+                <aside class="aside">
+                    <!-- phần đầu aside -->
+                    <div class="aside-header">
+                        <div class="aside-header-left">
+                            <i class="fa-solid fa-sliders"></i>
+                            <span>Filter</span>
+                        </div>
+                        <div class="aside-header-right">
+                            <i class="fa-solid fa-left-long"></i>
+                        </div>
+                    </div>
+
+                    <div class="aside-header-show">
+                        <i class="fa-solid fa-sliders icon-show-aside"></i>
+                    </div>
+                    <!-- phần nội dùng aside -->
+                    <div class="aside-content">
+                        <p class="aside-title">Refine by</p>
+
+                        <!-- danh sách các menu -->
+                        <div class="aside-list-menu">
+                            <p class="aside-list-title">Categories</p>
+                            <div class="aside-item-menu">
+                                <label for="checkMenu" class="checkMenu">
+                                    <input type="checkbox" id="checkMenu" />
+                                    <a href="">Broadcast Packages</a>
+                                </label>
+                                <p class="aside-item-number">2,878</p>
+                            </div>
+
+                            <div class="aside-item-menu">
+                                <label for="checkMenu" class="checkMenu">
+                                    <input type="checkbox" id="checkMenu" />
+                                    <a href="">Broadcast Packages</a>
+                                </label>
+                                <p class="aside-item-number">2,878</p>
+                            </div>
+
+                            <div class="aside-item-menu">
+                                <label for="checkMenu" class="checkMenu">
+                                    <input type="checkbox" id="checkMenu" />
+                                    <a href="">Elements</a>
+                                </label>
+                                <p class="aside-item-number">13,655</p>
+                            </div>
+
+                            <div class="aside-item-menu">
+                                <label for="checkMenu" class="checkMenu">
+                                    <input type="checkbox" id="checkMenu" />
+                                    <a href=""> Infographics</a>
+                                </label>
+                                <p class="aside-item-number">985</p>
+                            </div>
+
+                            <div class="aside-item-menu">
+                                <label for="checkMenu" class="checkMenu">
+                                    <input type="checkbox" id="checkMenu" />
+                                    <a href="">Logo Stings</a>
+                                </label>
+                                <p class="aside-item-number">12,277</p>
+                            </div>
+
+                            <div class="aside-item-menu">
+                                <label for="checkMenu" class="checkMenu">
+                                    <input type="checkbox" id="checkMenu" />
+                                    <a href="">Openers</a>
+                                </label>
+                                <p class="aside-item-number">22,740</p>
+                            </div>
+
+                            <div class="aside-item-menu">
+                                <label for="checkMenu" class="checkMenu">
+                                    <input type="checkbox" id="checkMenu" />
+                                    <a href="">Product Promo</a>
+                                </label>
+                                <p class="aside-item-number">7,345</p>
+                            </div>
+
+                            <div class="aside-item-menu">
+                                <label for="checkMenu" class="checkMenu">
+                                    <input type="checkbox" id="checkMenu" />
+                                    <a href="">Titles</a>
+                                </label>
+                                <p class="aside-item-number">11,845</p>
+                            </div>
+                        </div>
+
+                        <!-- danh sách các menu -->
+                        <div class="aside-list-menu">
+                            <p>Applications Supported</p>
+                            <div class="aside-item-menu">
+                                <label for="checkMenu" class="checkMenu">
+                                    <input type="checkbox" id="checkMenu" />
+                                    <a href="">After Effects</a>
+                                </label>
+                                <p class="aside-item-number">53,755</p>
+                            </div>
+
+                            <div class="aside-item-menu">
+                                <label for="checkMenu" class="checkMenu">
+                                    <input type="checkbox" id="checkMenu" />
+                                    <a href="">Premiere Pro</a>
+                                </label>
+                                <p class="aside-item-number">19,818</p>
+                            </div>
+
+                            <div class="aside-item-menu">
+                                <label for="checkMenu" class="checkMenu">
+                                    <input type="checkbox" id="checkMenu" />
+                                    <a href="">Apple Motion</a>
+                                </label>
+                                <p class="aside-item-number">4,834</p>
+                            </div>
+
+                            <div class="aside-item-menu">
+                                <label for="checkMenu" class="checkMenu">
+                                    <input type="checkbox" id="checkMenu" />
+                                    <a href="">Final Cut Pro</a>
+                                </label>
+                                <p class="aside-item-number">4,446</p>
+                            </div>
+
+                            <div class="aside-item-menu">
+                                <label for="checkMenu" class="checkMenu">
+                                    <input type="checkbox" id="checkMenu" />
+                                    <a href="">DaVinci Resolve</a>
+                                </label>
+                                <p class="aside-item-number">3,469</p>
+                            </div>
+                        </div>
+
+                        <!-- danh sách các menu -->
+                        <div class="aside-list-menu">
+                            <p>Plugins</p>
+                            <div class="aside-item-menu">
+                                <label for="checkMenu" class="checkMenu">
+                                    <input type="checkbox" id="checkMenu" />
+                                    <a href="">No plugins required</a>
+                                </label>
+                                <p class="aside-item-number">79,266</p>
+                            </div>
+                        </div>
+
+                        <!-- danh sách các menu -->
+                        <div class="aside-list-menu">
+                            <p>Resolution</p>
+                            <div class="aside-item-menu">
+                                <label for="checkMenu" class="checkMenu">
+                                    <input type="checkbox" id="checkMenu" />
+                                    <a href="">720p (HD)</a>
+                                </label>
+                                <p class="aside-item-number">698</p>
+                            </div>
+
+                            <div class="aside-item-menu">
+                                <label for="checkMenu" class="checkMenu">
+                                    <input type="checkbox" id="checkMenu" />
+                                    <a href="">1080p (Full HD)</a>
+                                </label>
+                                <p class="aside-item-number">52,172</p>
+                            </div>
+
+                            <div class="aside-item-menu">
+                                <label for="checkMenu" class="checkMenu">
+                                    <input type="checkbox" id="checkMenu" />
+                                    <a href="">2K</a>
+                                </label>
+                                <p class="aside-item-number">284</p>
+                            </div>
+
+                            <div class="aside-item-menu">
+                                <label for="checkMenu" class="checkMenu">
+                                    <input type="checkbox" id="checkMenu" />
+                                    <a href="">4K (UHD)</a>
+                                </label>
+                                <p class="aside-item-number">11,704</p>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+
+                <!-- nội dung chính -->
+                <div class="main-content">
+                    <div class="main-content-header">
+                        <ul class="main-header-list">
+                            <li class="main-header-title">
+                                <i class="fa-solid fa-star"></i>
+                                <span>Trending:</span>
+                            </li>
+                            <li class="main-header-item main-header-list1">
+                                <img src="/image/category1.jpg" alt="" />
+                                <span>memorial day</span>
+                            </li>
+                        </ul>
+
+                        <ul class="main-header-list">
+                            <li class="main-header-title">
+                                <i class="fa-solid fa-heart"></i>
+                                <span>Popular:</span>
+                            </li>
+                            <li class="main-header-item">
+                                <img src="/image/category1.jpg" alt="" />
+                                <span>Logo</span>
+                            </li>
+                            <li class="main-header-item">
+                                <img src="/image/category1.jpg" alt="" />
+                                <span>slideshow</span>
+                            </li>
+                            <li class="main-header-item">
+                                <img src="/image/category1.jpg" alt="" />
+                                <span>transition</span>
+                            </li>
+                            <li class="main-header-item">
+                                <img src="/image/category1.jpg" alt="" />
+                                <span>intro</span>
+                            </li>
+                            <li class="main-header-item">
+                                <img src="/image/category1.jpg" alt="" />
+                                <span>logo reveal</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="select-header">
+                        <select name="" id="">
+                            <option value="sort by populat">
+                                Sort by popular
+                            </option>
+                            <option value="new">new</option>
+                        </select>
+                    </div>
+                    <!-- listvideo -->
+                    <div class="main-list-video">
+                        <ul class="dowfile-list">
+                            <!-- item1 -->
+                            <li class="dowfile-item">
+                                <a href="">
+                                    <div class="dowfile-poster">
+                                        <video
+                                            src="/video/dowfile1.mp4"
+                                            class="dowfile-video"
+                                            muted
+                                            poster="/image/category1.jpg"
+                                        ></video>
+                                    </div>
+                                    <div class="dowfile-text">
+                                        <p>
+                                            Grip Modern Gradinet Typography
+                                            Opener Promotion Instagram Storie
+                                        </p>
+                                        <p>By DefMode in Vidfeo Template</p>
+                                        <div class="fowfile-icon">
+                                            <a href="">
+                                                <img
+                                                    src="/image/dowfileIMG1.svg"
+                                                    alt=""
+                                            /></a>
+                                            <a href="">
+                                                <img
+                                                    src="/image/dowfileIMG2.svg"
+                                                    alt=""
+                                            /></a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <!-- item1 -->
+                            <li class="dowfile-item">
+                                <a href="">
+                                    <div class="dowfile-poster">
+                                        <video
+                                            src="/video/dowfile1.mp4"
+                                            class="dowfile-video"
+                                            muted
+                                            poster="/image/category1.jpg"
+                                        ></video>
+                                    </div>
+                                    <div class="dowfile-text">
+                                        <p>
+                                            Grip Modern Gradinet Typography
+                                            Opener Promotion Instagram Storie
+                                        </p>
+                                        <p>By DefMode in Vidfeo Template</p>
+                                        <div class="fowfile-icon">
+                                            <a href="">
+                                                <img
+                                                    src="/image/dowfileIMG1.svg"
+                                                    alt=""
+                                            /></a>
+                                            <a href="">
+                                                <img
+                                                    src="/image/dowfileIMG2.svg"
+                                                    alt=""
+                                            /></a>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="next-page">
+                        <li>
+                            <a href=""
+                                ><i class="fa-sharp fa-solid fa-angles-left"></i
+                            ></a>
+                        </li>
+                        <li>
+                            <a href=""
+                                ><i class="fa-solid fa-chevron-left"></i
+                            ></a>
+                        </li>
+                        <li>
+                            <a href=""><button>1</button></a>
+                        </li>
+                        <li>
+                            <a href=""><button>2</button></a>
+                        </li>
+                        <li>
+                            <a href=""><button>3</button></a>
+                        </li>
+                        <li>
+                            <a href=""><button>3</button></a>
+                        </li>
+                        <li>
+                            <a href=""><button>5</button></a>
+                        </li>
+                        <li>
+                            <a href=""
+                                ><i class="fa-solid fa-chevron-right"></i
+                            ></a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+        <!-- end main -->
+        <!-- footer -->
+        <footer class="footer-home">
+            <div class="footer-container">
+                <div class="footer-top">
+                    <div class="footer-top-col">
+                        <h3>ENVATO ELEMENTS</h3>
+                        <p><a href="#">About Elements</a></p>
+                        <p><a href="#">Monthly Free Files</a></p>
+                        <p><a href="#">Popular Searches</a></p>
+                        <p><a href="#">License</a></p>
+                        <p><a href="#">Terms & Conditions</a></p>
+                    </div>
+                    <div class="footer-top-col">
+                        <h3>MEET ENVATO</h3>
+                        <p><a href="#">About Envato</a></p>
+                        <p><a href="#">Explore our ecosystem</a></p>
+                        <p><a href="#">Careers</a></p>
+                    </div>
+                    <div class="footer-top-col">
+                        <h3>HELP</h3>
+                        <p><a href="#">Help Center</a></p>
+                        <p><a href="#">Become an Affiliate</a></p>
+                        <h3>AUTHOR</h3>
+                        <p><a href="#">Become an Author</a></p>
+                        <p><a href="#">Author Sign In</a></p>
+                    </div>
+                    <div class="footer-top-col4">
+                        <p>Send me tips, trends, freebies, updates & offers.</p>
+                        <div class="footer-send-email">
+                            <input type="text" placeholder="Email address" />
+                            <button>Sign me up</button>
+                        </div>
+                        <p>Privacy Policy</p>
+                        <svg
+                            class="footer-svg"
+                            tabindex=""
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 106 178"
+                            role="img"
+                            aria-label="B Corp"
+                            style="width: 150px; height: 150px"
+                        >
+                            <path
+                                d="M 30.666 51.07 L 52.371 51.07 C 57.651 51.07 64.614 51.07 68.21 53.253 C 72.153 55.6 75.249 59.869 75.249 65.746 C 75.249 72.112 71.903 76.892 66.363 79.151 L 66.363 79.325 C 73.739 80.835 77.759 86.365 77.759 93.741 C 77.759 102.54 71.469 110.927 59.573 110.927 L 30.666 110.927 Z M 38.618 76.794 L 54.555 76.794 C 63.604 76.794 67.297 73.524 67.297 67.234 C 67.297 58.935 61.431 57.761 54.555 57.761 L 38.618 57.761 Z M 38.618 104.202 L 58.574 104.202 C 65.44 104.202 69.807 100.009 69.807 93.48 C 69.807 85.68 63.517 83.508 56.814 83.508 L 38.618 83.508 Z M 52.599 35.491 C 27.462 35.491 7.082 55.871 7.082 81.008 C 7.082 106.146 27.462 126.526 52.599 126.526 C 77.748 126.526 98.128 106.146 98.128 81.008 C 98.128 55.871 77.748 35.502 52.599 35.491 Z M 105.037 80.976 C 105.037 109.927 81.561 133.402 52.599 133.402 C 23.649 133.402 0.173 109.927 0.173 80.976 C 0.173 52.025 23.649 28.549 52.599 28.549 C 81.561 28.549 105.037 52.025 105.037 80.976 Z M 104.93 151.349 L 0.284 151.349 L 0.284 144.473 L 104.93 144.473 Z M 101.66 136.901 C 101.79 136.901 101.91 136.89 102.029 136.89 C 102.138 136.879 102.247 136.857 102.333 136.825 C 102.431 136.781 102.496 136.716 102.551 136.64 C 102.605 136.553 102.627 136.444 102.627 136.303 C 102.627 136.184 102.605 136.075 102.562 136.01 C 102.518 135.934 102.453 135.88 102.377 135.847 C 102.301 135.804 102.225 135.782 102.116 135.76 C 102.018 135.749 101.932 135.749 101.823 135.749 L 101.073 135.749 L 101.073 136.912 L 101.66 136.912 Z M 101.91 135.282 C 102.344 135.282 102.659 135.369 102.877 135.543 C 103.083 135.717 103.192 135.977 103.192 136.336 C 103.192 136.673 103.094 136.901 102.92 137.064 C 102.735 137.216 102.507 137.303 102.225 137.335 L 103.268 138.943 L 102.659 138.943 L 101.66 137.368 L 101.062 137.368 L 101.062 138.943 L 100.487 138.943 L 100.487 135.293 L 101.91 135.293 Z M 99.335 138.15 C 99.455 138.476 99.639 138.769 99.878 139.008 C 100.106 139.247 100.378 139.432 100.693 139.573 C 100.997 139.703 101.345 139.769 101.703 139.769 C 102.073 139.769 102.41 139.703 102.714 139.573 C 103.029 139.432 103.3 139.247 103.528 139.008 C 103.757 138.769 103.941 138.487 104.061 138.15 C 104.191 137.824 104.267 137.476 104.267 137.096 C 104.267 136.716 104.202 136.368 104.061 136.042 C 103.93 135.717 103.746 135.434 103.528 135.195 C 103.289 134.956 103.018 134.771 102.714 134.641 C 102.41 134.511 102.062 134.435 101.703 134.435 C 101.345 134.435 100.997 134.511 100.693 134.641 C 100.378 134.782 100.096 134.967 99.878 135.195 C 99.639 135.434 99.466 135.717 99.335 136.042 C 99.205 136.368 99.14 136.705 99.14 137.096 C 99.14 137.476 99.205 137.835 99.335 138.15 Z M 98.825 135.858 C 98.988 135.478 99.216 135.163 99.498 134.88 C 99.781 134.598 100.117 134.391 100.498 134.228 C 100.878 134.065 101.291 133.989 101.703 133.989 C 102.138 133.989 102.54 134.065 102.931 134.228 C 103.3 134.391 103.637 134.598 103.909 134.88 C 104.191 135.163 104.43 135.488 104.582 135.858 C 104.756 136.238 104.832 136.651 104.832 137.096 C 104.832 137.542 104.756 137.954 104.582 138.335 C 104.419 138.726 104.191 139.052 103.909 139.334 C 103.626 139.627 103.3 139.834 102.931 139.997 C 102.54 140.149 102.138 140.225 101.703 140.225 C 101.28 140.225 100.878 140.149 100.498 139.997 C 100.117 139.834 99.781 139.627 99.498 139.334 C 99.216 139.052 98.988 138.726 98.825 138.335 C 98.651 137.954 98.586 137.542 98.586 137.096 C 98.575 136.662 98.64 136.238 98.825 135.858 Z M 12.96 5.497 C 12.71 5.095 12.406 4.747 12.037 4.454 C 11.667 4.15 11.244 3.922 10.777 3.748 C 10.309 3.585 9.82 3.498 9.31 3.498 C 8.376 3.498 7.583 3.683 6.92 4.041 C 6.268 4.4 5.736 4.889 5.334 5.497 C 4.932 6.105 4.628 6.8 4.443 7.583 C 4.258 8.354 4.161 9.158 4.161 9.994 C 4.161 10.787 4.248 11.559 4.443 12.308 C 4.628 13.058 4.921 13.731 5.334 14.34 C 5.736 14.937 6.268 15.426 6.92 15.785 C 7.572 16.143 8.365 16.328 9.31 16.328 C 10.581 16.328 11.58 15.937 12.287 15.165 C 13.003 14.383 13.438 13.362 13.601 12.091 L 17.631 12.091 C 17.523 13.275 17.251 14.34 16.806 15.296 C 16.36 16.252 15.785 17.066 15.057 17.729 C 14.329 18.403 13.481 18.913 12.515 19.272 C 11.548 19.619 10.472 19.804 9.31 19.804 C 7.865 19.804 6.561 19.554 5.399 19.044 C 4.237 18.544 3.27 17.849 2.466 16.958 C 1.673 16.078 1.065 15.035 0.641 13.84 C 0.217 12.656 0 11.374 0 9.994 C 0 8.582 0.217 7.268 0.641 6.051 C 1.065 4.845 1.673 3.78 2.466 2.89 C 3.259 1.988 4.237 1.282 5.399 0.771 C 6.551 0.261 7.854 0 9.31 0 C 10.353 0 11.341 0.152 12.265 0.445 C 13.188 0.75 14.025 1.184 14.752 1.76 C 15.48 2.336 16.089 3.042 16.567 3.889 C 17.045 4.736 17.349 5.714 17.468 6.8 L 13.438 6.8 C 13.373 6.333 13.21 5.899 12.96 5.497 Z M 23.054 16.088 C 23.619 16.631 24.434 16.913 25.487 16.913 C 26.248 16.913 26.899 16.729 27.454 16.348 C 27.997 15.968 28.333 15.566 28.464 15.143 L 31.777 15.143 C 31.245 16.783 30.43 17.967 29.333 18.673 C 28.236 19.379 26.91 19.738 25.357 19.738 C 24.281 19.738 23.304 19.564 22.446 19.216 C 21.576 18.869 20.848 18.38 20.24 17.75 C 19.643 17.12 19.176 16.359 18.85 15.468 C 18.524 14.589 18.361 13.611 18.361 12.557 C 18.361 11.536 18.524 10.58 18.861 9.7 C 19.197 8.82 19.675 8.049 20.295 7.408 C 20.914 6.767 21.652 6.256 22.511 5.887 C 23.369 5.518 24.314 5.333 25.357 5.333 C 26.519 5.333 27.54 5.561 28.409 6.006 C 29.278 6.463 29.985 7.06 30.539 7.821 C 31.093 8.581 31.495 9.45 31.745 10.417 C 31.994 11.384 32.081 12.405 32.005 13.47 L 22.12 13.47 C 22.185 14.654 22.489 15.545 23.054 16.088 Z M 27.312 8.874 C 26.856 8.386 26.172 8.136 25.259 8.136 C 24.662 8.136 24.162 8.233 23.76 8.44 C 23.358 8.646 23.043 8.896 22.804 9.189 C 22.565 9.494 22.402 9.809 22.304 10.145 C 22.206 10.482 22.152 10.776 22.13 11.047 L 28.246 11.047 C 28.073 10.091 27.758 9.374 27.312 8.874 Z M 37.281 5.671 L 37.281 8.213 L 37.335 8.213 C 37.509 7.789 37.748 7.398 38.052 7.029 C 38.356 6.671 38.693 6.355 39.084 6.106 C 39.475 5.856 39.888 5.649 40.333 5.508 C 40.778 5.367 41.235 5.302 41.713 5.302 C 41.963 5.302 42.234 5.345 42.538 5.432 L 42.538 8.93 C 42.365 8.897 42.147 8.865 41.897 8.843 C 41.648 8.821 41.409 8.8 41.18 8.8 C 40.496 8.8 39.909 8.919 39.431 9.147 C 38.953 9.375 38.573 9.691 38.28 10.093 C 37.987 10.494 37.78 10.951 37.661 11.483 C 37.541 12.015 37.476 12.591 37.476 13.21 L 37.476 19.392 L 33.717 19.392 L 33.717 5.671 Z M 52.613 5.67 L 52.613 8.191 L 49.853 8.191 L 49.853 14.98 C 49.853 15.621 49.962 16.045 50.168 16.251 C 50.375 16.458 50.809 16.566 51.439 16.566 C 51.657 16.566 51.852 16.555 52.048 16.544 C 52.243 16.523 52.428 16.501 52.602 16.468 L 52.602 19.38 C 52.287 19.434 51.928 19.467 51.537 19.488 C 51.146 19.51 50.766 19.521 50.396 19.521 C 49.81 19.521 49.256 19.478 48.745 19.402 C 48.224 19.325 47.768 19.173 47.366 18.934 C 46.964 18.706 46.659 18.38 46.42 17.957 C 46.192 17.533 46.073 16.979 46.073 16.284 L 46.073 8.191 L 43.792 8.191 L 43.792 5.67 L 46.073 5.67 L 46.073 1.564 L 49.832 1.564 L 49.832 5.67 Z M 54.794 3.552 L 54.794 0.445 L 58.553 0.445 L 58.553 3.552 Z M 58.564 5.67 L 58.564 19.369 L 54.805 19.369 L 54.805 5.67 Z M 60.054 8.19 L 60.054 5.67 L 62.302 5.67 L 62.302 4.605 C 62.302 3.389 62.683 2.389 63.443 1.607 C 64.204 0.825 65.355 0.445 66.887 0.445 C 67.224 0.445 67.56 0.456 67.897 0.488 C 68.234 0.51 68.56 0.543 68.875 0.553 L 68.875 3.367 C 68.44 3.313 67.984 3.291 67.506 3.291 C 66.995 3.291 66.626 3.41 66.409 3.649 C 66.192 3.888 66.083 4.29 66.083 4.855 L 66.083 5.681 L 68.679 5.681 L 68.679 8.201 L 66.083 8.201 L 66.083 19.391 L 62.313 19.391 L 62.313 8.19 Z M 71.223 3.552 L 71.223 0.445 L 74.981 0.445 L 74.981 3.552 Z M 74.981 5.67 L 74.981 19.369 L 71.223 19.369 L 71.223 5.67 Z M 80.921 16.088 C 81.486 16.631 82.301 16.913 83.354 16.913 C 84.115 16.913 84.767 16.729 85.321 16.348 C 85.864 15.968 86.201 15.566 86.331 15.143 L 89.644 15.143 C 89.112 16.783 88.297 17.967 87.211 18.673 C 86.114 19.379 84.788 19.738 83.235 19.738 C 82.159 19.738 81.182 19.564 80.323 19.216 C 79.454 18.869 78.727 18.38 78.118 17.75 C 77.521 17.12 77.054 16.359 76.728 15.468 C 76.402 14.589 76.239 13.611 76.239 12.557 C 76.239 11.536 76.413 10.58 76.739 9.7 C 77.075 8.82 77.553 8.049 78.172 7.408 C 78.792 6.767 79.53 6.256 80.389 5.887 C 81.247 5.518 82.192 5.333 83.235 5.333 C 84.397 5.333 85.418 5.561 86.287 6.006 C 87.156 6.463 87.863 7.06 88.417 7.821 C 88.971 8.581 89.373 9.45 89.622 10.417 C 89.872 11.384 89.959 12.405 89.894 13.47 L 80.008 13.47 C 80.041 14.654 80.356 15.545 80.921 16.088 Z M 85.169 8.874 C 84.723 8.386 84.028 8.136 83.115 8.136 C 82.518 8.136 82.018 8.233 81.616 8.44 C 81.214 8.646 80.899 8.896 80.66 9.189 C 80.421 9.494 80.258 9.809 80.16 10.145 C 80.063 10.482 80.008 10.776 79.987 11.047 L 86.103 11.047 C 85.94 10.091 85.625 9.374 85.169 8.874 Z M 101.302 17.62 C 100.857 18.359 100.281 18.902 99.564 19.228 C 98.847 19.553 98.043 19.716 97.141 19.716 C 96.12 19.716 95.219 19.521 94.436 19.119 C 93.654 18.717 93.013 18.185 92.514 17.5 C 92.014 16.816 91.634 16.034 91.373 15.154 C 91.112 14.274 90.993 13.351 90.993 12.395 C 90.993 11.471 91.123 10.591 91.373 9.733 C 91.623 8.875 92.014 8.125 92.514 7.463 C 93.013 6.811 93.654 6.278 94.404 5.887 C 95.164 5.485 96.044 5.29 97.054 5.29 C 97.869 5.29 98.641 5.464 99.368 5.811 C 100.107 6.159 100.683 6.659 101.106 7.332 L 101.161 7.332 L 101.161 0.445 L 104.919 0.445 L 104.919 19.369 L 101.356 19.369 L 101.356 17.62 Z M 101.139 10.852 C 101.03 10.33 100.857 9.874 100.596 9.472 C 100.335 9.07 100.009 8.755 99.596 8.505 C 99.195 8.256 98.673 8.136 98.065 8.136 C 97.456 8.136 96.924 8.256 96.5 8.505 C 96.077 8.755 95.74 9.081 95.479 9.483 C 95.229 9.885 95.045 10.352 94.925 10.874 C 94.806 11.395 94.751 11.938 94.751 12.503 C 94.751 13.035 94.817 13.568 94.936 14.089 C 95.056 14.622 95.262 15.089 95.534 15.512 C 95.805 15.925 96.153 16.262 96.566 16.523 C 96.978 16.783 97.478 16.903 98.065 16.903 C 98.684 16.903 99.195 16.783 99.618 16.533 C 100.031 16.284 100.368 15.958 100.618 15.534 C 100.867 15.121 101.041 14.643 101.15 14.122 C 101.259 13.59 101.313 13.046 101.313 12.481 C 101.313 11.917 101.248 11.373 101.139 10.852 Z M 9.462 164.862 C 9.277 163.536 8.006 162.526 6.551 162.526 C 3.922 162.526 2.933 164.764 2.933 167.1 C 2.933 169.316 3.922 171.554 6.551 171.554 C 8.343 171.554 9.353 170.326 9.571 168.566 L 12.417 168.566 C 12.113 171.89 9.82 174.02 6.551 174.02 C 2.423 174.02 0 170.934 0 167.1 C 0 163.145 2.423 160.06 6.551 160.06 C 9.484 160.06 11.939 161.777 12.297 164.862 Z M 18.531 163.798 C 21.572 163.798 23.528 165.808 23.528 168.893 C 23.528 171.956 21.572 173.966 18.531 173.966 C 15.511 173.966 13.544 171.946 13.544 168.893 C 13.544 165.808 15.5 163.798 18.531 163.798 Z M 18.531 171.967 C 20.345 171.967 20.877 170.414 20.877 168.893 C 20.877 167.339 20.334 165.797 18.531 165.797 C 16.738 165.797 16.195 167.35 16.195 168.893 C 16.195 170.425 16.738 171.967 18.531 171.967 Z M 25.169 164.037 L 27.69 164.037 L 27.69 165.829 L 27.733 165.829 C 28.211 164.613 29.526 163.776 30.818 163.776 C 31.003 163.776 31.231 163.809 31.394 163.863 L 31.394 166.329 C 31.144 166.275 30.753 166.242 30.438 166.242 C 28.494 166.242 27.82 167.643 27.82 169.338 L 27.82 173.683 L 25.169 173.683 Z M 34.936 164.059 L 34.936 165.286 L 34.969 165.286 C 35.599 164.265 36.642 163.798 37.837 163.798 C 40.868 163.798 42.226 166.242 42.226 168.98 C 42.226 171.554 40.814 173.966 37.989 173.966 C 36.838 173.966 35.73 173.466 35.099 172.51 L 35.056 172.51 L 35.056 177.106 L 32.405 177.106 L 32.405 164.059 Z M 39.586 168.915 C 39.586 167.383 38.967 165.797 37.272 165.797 C 35.534 165.797 34.98 167.35 34.98 168.915 C 34.98 170.479 35.577 171.978 37.294 171.978 C 39.021 171.967 39.586 170.479 39.586 168.915 Z M 48.047 163.798 C 51.089 163.798 53.055 165.808 53.055 168.893 C 53.055 171.956 51.089 173.966 48.047 173.966 C 45.027 173.966 43.071 171.946 43.071 168.893 C 43.071 165.808 45.027 163.798 48.047 163.798 Z M 48.047 171.967 C 49.861 171.967 50.404 170.414 50.404 168.893 C 50.404 167.339 49.861 165.797 48.047 165.797 C 46.254 165.797 45.711 167.35 45.711 168.893 C 45.711 170.425 46.254 171.967 48.047 171.967 Z M 57.204 164.037 L 57.204 165.829 L 57.248 165.829 C 57.726 164.613 59.04 163.776 60.322 163.776 C 60.507 163.776 60.735 163.809 60.898 163.863 L 60.898 166.329 C 60.659 166.275 60.268 166.242 59.942 166.242 C 57.997 166.242 57.324 167.643 57.324 169.338 L 57.324 173.683 L 54.673 173.683 L 54.673 164.037 Z M 61.683 167.024 C 61.835 164.537 64.051 163.798 66.224 163.798 C 68.147 163.798 70.461 164.222 70.461 166.536 L 70.461 171.554 C 70.461 172.434 70.548 173.303 70.797 173.705 L 68.103 173.705 C 68.016 173.401 67.929 173.086 67.918 172.771 C 67.082 173.651 65.854 173.966 64.67 173.966 C 62.845 173.966 61.39 173.054 61.39 171.076 C 61.39 168.893 63.03 168.371 64.67 168.143 C 66.3 167.904 67.81 167.959 67.81 166.872 C 67.81 165.732 67.017 165.569 66.093 165.569 C 65.083 165.569 64.431 165.982 64.334 167.024 Z M 67.81 168.98 C 67.354 169.371 66.43 169.393 65.605 169.545 C 64.779 169.708 64.04 169.99 64.04 170.968 C 64.04 171.956 64.801 172.195 65.67 172.195 C 67.734 172.195 67.821 170.555 67.821 169.979 L 67.821 168.98 Z M 75.814 164.058 L 77.758 164.058 L 77.758 165.829 L 75.814 165.829 L 75.814 170.609 C 75.814 171.51 76.042 171.728 76.933 171.728 C 77.215 171.728 77.476 171.706 77.758 171.652 L 77.758 173.727 C 77.313 173.803 76.726 173.824 76.205 173.824 C 74.586 173.824 73.163 173.444 73.163 171.532 L 73.163 165.84 L 71.555 165.84 L 71.555 164.069 L 73.163 164.069 L 73.163 161.179 L 75.814 161.179 Z M 82.397 162.57 L 79.746 162.57 L 79.746 160.387 L 82.397 160.387 Z M 79.746 164.059 L 82.397 164.059 L 82.397 173.705 L 79.746 173.705 Z M 89.165 163.798 C 92.207 163.798 94.173 165.808 94.173 168.893 C 94.173 171.956 92.207 173.966 89.165 173.966 C 86.145 173.966 84.19 171.946 84.19 168.893 C 84.179 165.808 86.145 163.798 89.165 163.798 Z M 89.165 171.967 C 90.98 171.967 91.523 170.414 91.523 168.893 C 91.523 167.339 90.98 165.797 89.165 165.797 C 87.373 165.797 86.83 167.35 86.83 168.893 C 86.83 170.425 87.373 171.967 89.165 171.967 Z M 98.399 164.059 L 98.399 165.406 L 98.454 165.406 C 99.127 164.319 100.279 163.798 101.408 163.798 C 104.222 163.798 104.939 165.384 104.939 167.774 L 104.939 173.705 L 102.288 173.705 L 102.288 168.252 C 102.288 166.666 101.821 165.884 100.594 165.884 C 99.149 165.884 98.54 166.688 98.54 168.654 L 98.54 173.716 L 95.89 173.716 L 95.89 164.059 Z"
+                            ></path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="footer-bottom-left">
+                        <ul class="footer-list">
+                            <li>
+                                <a href="#" class="footer-item"
+                                    >Envato Market</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="footer-item">Envato Tuts+</a>
+                            </li>
+                            <li><a href="#" class="footer-item">Placeit</a></li>
+                            <li><a href="#" class="footer-item">Mixkit</a></li>
+                            <li>
+                                <a href="#" class="footer-item">All Products</a>
+                            </li>
+                            <li><a href="#" class="footer-item">Sitemap</a></li>
+                        </ul>
+                        <p class="trademarks">
+                            © 2023 Envato Elements Pty Ltd. Trademarks and
+                            brands are the property of their respective owners.
+                        </p>
+                    </div>
+                    <div class="footer-bottom-right">
+                        <ul class="footer-list-icon">
+                            <li class="footer-item-icon">
+                                <a href="#"
+                                    ><i class="fa-brands fa-twitter"></i
+                                ></a>
+                            </li>
+                            <li class="footer-item-icon">
+                                <a href="#"
+                                    ><i class="fa-brands fa-facebook-f"></i
+                                ></a>
+                            </li>
+                            <li class="footer-item-icon">
+                                <a href="#"
+                                    ><i class="fa-brands fa-youtube"></i
+                                ></a>
+                            </li>
+                            <li class="footer-item-icon">
+                                <a href="#"
+                                    ><i class="fa-brands fa-instagram"></i
+                                ></a>
+                            </li>
+                            <li class="footer-item-icon">
+                                <a href="#"
+                                    ><i class="fa-brands fa-pinterest"></i
+                                ></a>
+                            </li>
+                            <li class="footer-item-icon">
+                                <a href="#"
+                                    ><i class="fa-brands fa-tiktok"></i
+                                ></a>
+                            </li>
+                        </ul>
+                        <div class="footer-bottom-laguage">
+                            <i class="fa-solid fa-globe"></i>
+                            <select name="" id="">
+                                <option value="" disabled>
+                                    CHANGE LANGUAGE
+                                </option>
+                                <option value="Deutsch">Deutsch</option>
+                                <option value="English">English</option>
+                                <option value="Español">Español</option>
+                                <option value="Português brasileiro">
+                                    Português brasileiro
+                                </option>
+                                <option value="Pусский">Pусский</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- script -->
+        <script src="/javascript/stockVideo.js"></script>
+    </body>
+</html>
